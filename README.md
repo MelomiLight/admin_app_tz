@@ -37,8 +37,7 @@ To get the Laravel application running on your local machine, follow these steps
 
 4. **Run Migrations and Seed Database**
 
-   Once the containers are up, execute Laravel migrations to set up the database schema and seed initial data (if
-   applicable):
+   Once the containers are up, execute Laravel migrations to set up the database schema and seed initial data:
 
    ```bash
    make migrate
@@ -47,7 +46,7 @@ To get the Laravel application running on your local machine, follow these steps
 5. **Access the Application**
 
    After successfully starting the containers, you should be able to access the Laravel application
-   at http://localhost:8080 (assuming port 8080 is mapped to your nginx service in docker-compose.yml).
+   at http://localhost:8080 .
 
 
 
