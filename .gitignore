@@ -1,0 +1,5 @@
+# Ignore JetBrains IDE project files
+.idea/
+
+# Ignore logs directory
+logs/
